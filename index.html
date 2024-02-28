@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Domus SC</title>
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="CSS/card.css">
+     <!-- tailwind and daisy ui cdn -->
+     <link href="https://cdn.jsdelivr.net/npm/daisyui@3.2.1/dist/full.css" rel="stylesheet" type="text/css" />
+     <script src="https://cdn.tailwindcss.com"></script>
+     <!-- Font Awesome -->
+     <script src="https://kit.fontawesome.com/78353109f1.js" crossorigin="anonymous"></script>
+</head>
+<body class="container mx-auto">
+    <!-- Navbar -->
+    <div class="navbar nav">
+        <div class="navbar-start">
+          <div class="dropdown">
+            <div tabindex="0" role="button" class="btn btn-ghost btn-circle">
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h7" /></svg>
+            </div>
+            <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+              <li><a>Homepage</a></li>
+              <li><a>About</a></li>
+              <li><a>Players</a></li>
+              <li><a>Matches</a></li>
+              <li><a>News</a></li>
+              <li><a>Contact</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="navbar-center">
+          <a class="btn btn-ghost text-3xl ">DOMUS <span class="text-yellow-500">SC</span></a>
+        </div>
+        <div class="navbar-end">
+          <img class="w-24" src="Images/D-logo.png" alt="">
+          </button>
+        </div>
+    </div>
+
+    <!-- Banner Section -->
+
+<div class="carousel w-full rounded-xl">
+  <div id="slide1" class="carousel-item relative w-full ">
+    <img src="Images/banner.jpg" class="w-full h-full object-cover" />
+    <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+      <a href="#slide4" class="btn">❮</a> 
+      <a href="#slide2" class="btn ">❯</a>
+    </div>
+  </div> 
+  
+  <div id="slide2" class="carousel-item relative w-full">
+    <img src="Images/Domus_vs_vietnam.jpg" class="w-full h-full object-cover" />
+    <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+      <a href="#slide1" class="btn">❮</a> 
+      <a href="#slide3" class="btn">❯</a>
+    </div>
+  </div> 
+</div>
+      
+
+<!-- Card -->
+<div class="my-5">
+    <div class="border-2 border-dashed rounded-xl ">
+      <div class="p-9 m-2 bg-gray-100 shadow-md rounded-xl ">
+        <h1 class="text-center text-3xl font-bold"> Our Story, Values, and Mission</h1>
+      </div>
+        <div class="p-5 ">
+          <div>
+            <p class="text-lg text-justify  text-gray-500 ">Welcome to <span class="text-yellow-500"> Domus Sporting Club</span>, where passion meets excellence in the realms of football and cricket.
+              Established with a vision to cultivate a community deeply rooted in the love for sports, Domus Sporting Club is a haven for enthusiasts and athletes alike. Our club stands as a beacon of sportsmanship, camaraderie, and dedication.
+                Beyond sports, Domus Sporting Club fosters a sense of belonging and camaraderie among its members. Our vibrant community events, social gatherings, and volunteer initiatives create opportunities for friendship, networking, and giving back to society.
+              Join us at Domus Sporting Club and embark on a journey filled with passion, teamwork, and the joy of sports. Whether you're chasing goals on the football field or smashing boundaries on the cricket pitch, you'll find your home here at Domus.
+            </p>
+          </div>
+          <div>
+            <div class="lg:flex flex-row gap-4 my-5 ">
+              <div class="card w-full h-80 bg-base-100 shadow-xl relative overflow-hidden">
+                <figure>
+                    <img class="object-cover" src="Images/D-team-1 copy.jpg" alt="c" />
+                    <!-- Hover effect -->
+                    <div class="absolute inset-0 flex items-center justify-center bg-black bg-opacity-50 text-white opacity-0 hover:opacity-100 transition-opacity duration-300">
+                        <h2 class="text-4xl font-bold ">Football</h2>
+                    </div>
+                </figure>   
+            </div>
+            
+              <div class="card w-full h-80 bg-base-100 shadow-xl relative overflow-hidden">
+                <figure>
+                    <img class="object-cover" src="Images/D-Cricket.jpeg" alt="c" />
+                    <!-- Hover effect -->
+                    <div class="absolute inset-0 flex items-center justify-center bg-black bg-opacity-50 text-white opacity-0 hover:opacity-100 transition-opacity duration-300">
+                        <h2 class="text-4xl font-bold ">Cricket</h2>
+                    </div>
+                </figure>   
+            </div>
+            
+            </div>
+          </div>
+        </div>
+    </div>
+
+    <!-- Plyers -->
+    <div class="p-9 my-12  shadow-md rounded-xl ">
+      <h1 class="text-center text-3xl font-bold"> Players</h1>
+    </div>
+    <section class="my-12 flex justify-center ">
+      
+      <div class="carousel carousel-center max-w-md md:max-w-3xl lg:max-w-5xl p-4 space-x-4 players rounded-box relative">
+        <div class="carousel-item w-72 relative group">
+          <img src="Images/tanjim.png" class="rounded-box" />
+          <div class="absolute top-28 left-3 p-4 opacity50">
+            <!-- Additional information -->
+            <p class="font-medium text-3xl text-white transform -rotate-90 origin-left">Defender</p>
+          </div>
+
+          <div class="absolute inset-0 flex flex-col justify-center items-center opacity-50">
+            <!-- Transparent text in the middle below the card -->
+            <p class="font-bold italic text-white text-4xl mt-44">Tanjimuddin</p>
+          </div>
+          <div class="absolute bottom-0 left-0 right-0 p-4 rounded-b-lg shadow-md opacity-0 group-hover:opacity-100 transition duration-300 gradient-hover text-center">
+            
+            <!-- Additional information -->
+            
+            <p class="text-white font-medium text-3xl">17</p>
+          </div>
+        </div>
+        <div class="carousel-item w-72 relative group">
+          <img src="Images/tanjim.png" class="rounded-box" />
+          <div class="absolute top-28 left-3 p-4 opacity50">
+            <!-- Additional information -->
+            <p class="font-medium text-3xl text-white transform -rotate-90 origin-left">Defender</p>
+          </div>
+          <div class="absolute inset-0 flex flex-col justify-center items-center opacity-50">
+            <!-- Transparent text in the middle below the card -->
+            <p class="font-bold italic text-white text-4xl mt-44">Tanjimuddin</p>
+          </div>
+          <div class="absolute bottom-0 left-0 right-0 p-4 rounded-b-lg shadow-md opacity-0 group-hover:opacity-100 transition duration-300 gradient-hover text-center">
+            <!-- Additional information -->
+            
+            <p class="text-white font-medium text-3xl">17</p>
+          </div>
+        </div>
+        <div class="carousel-item w-72 relative group">
+          <img src="Images/tanjim.png" class="rounded-box" />
+          <div class="absolute top-28 left-3 p-4 opacity50">
+            <!-- Additional information -->
+            <p class="font-medium text-3xl text-white transform -rotate-90 origin-left">Defender</p>
+          </div>
+          <div class="absolute inset-0 flex flex-col justify-center items-center opacity-50">
+            <!-- Transparent text in the middle below the card -->
+            <p class="font-bold italic text-white text-4xl mt-44">Tanjimuddin</p>
+          </div>
+          <div class="absolute bottom-0 left-0 right-0 p-4 rounded-b-lg shadow-md opacity-0 group-hover:opacity-100 transition duration-300 gradient-hover text-center">
+            <!-- Additional information -->
+            
+            <p class="text-white font-medium text-3xl">17</p>
+          </div>
+        </div>
+        <div class="carousel-item w-72 relative group">
+          <img src="Images/tanjim.png" class="rounded-box" />
+          <div class="absolute top-28 left-3 p-4 opacity50">
+            <!-- Additional information -->
+            <p class="font-medium text-3xl text-white transform -rotate-90 origin-left">Defender</p>
+          </div>
+          <div class="absolute inset-0 flex flex-col justify-center items-center opacity-50">
+            <!-- Transparent text in the middle below the card -->
+            <p class="font-bold italic text-white text-4xl mt-44">Tanjimuddin</p>
+          </div>
+          <div class="absolute bottom-0 left-0 right-0 p-4 rounded-b-lg shadow-md opacity-0 group-hover:opacity-100 transition duration-300 gradient-hover text-center">
+            <!-- Additional information -->
+            
+            <p class="text-white font-medium text-3xl">17</p>
+          </div>
+        </div>
+        <div class="carousel-item w-72 relative group">
+          <img src="Images/tanjim.png" class="rounded-box" />
+          <div class="absolute top-28 left-3 p-4 opacity50">
+            <!-- Additional information -->
+            <p class="font-medium text-3xl text-white transform -rotate-90 origin-left">Defender</p>
+          </div>
+          <div class="absolute inset-0 flex flex-col justify-center items-center opacity-50">
+            <!-- Transparent text in the middle below the card -->
+            <p class="font-bold italic text-white text-4xl mt-44">Tanjimuddin</p>
+          </div>
+          <div class="absolute bottom-0 left-0 right-0 p-4 rounded-b-lg shadow-md opacity-0 group-hover:opacity-100 transition duration-300 gradient-hover text-center">
+            <!-- Additional information -->
+            
+            <p class="text-white font-medium text-3xl">17</p>
+          </div>
+        </div>
+        
+        
+    </section>
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+    <!-- Jounrey -->
+    <div class="border-2 border-dashed rounded-xl mt-9">
+      <div class="p-9 bg-gray-100 shadow-md rounded-xl m-2">
+        <h1 class="text-center text-3xl font-bold"> A Visual Journey of Domus Sporting Club</h1>
+      </div>
+      <div class="p-5">
+        <p class="text-lg text-justify  text-gray-500 ">Today, in <span class="text-yellow-500">2024</span>, Domus Sporting Club stands as a beacon of sporting excellence and community spirit. With a thriving football team and a burgeoning cricket squad, the club continues to push boundaries, break barriers, and etch its legacy in the annals of sporting history. As we reflect on our past achievements and look towards the future, one thing remains abundantly clear – the journey of Domus Sporting Club is far from over. Whether you're a seasoned athlete or a newcomer to the game, there's a place for you within our vibrant community. Join us, and together, let's continue to write the next chapter in the extraordinary story of Domus Sporting Club.
+        </p>
+      </div>
+      <div class="relative min-h-screen flex flex-col justify-center bg-white overflow-hidden">
+        <div class="w-full max-w-6xl mx-auto px-4 md:px-6 ">
+            <div class="flex flex-col justify-center divide-y divide-slate-200 [&>*]:py-16">
+                    <!-- Vertical Timeline #1 -->
+                    <div class="space-y-8 relative before:absolute before:inset-0 before:ml-5 before:-translate-x-px md:before:mx-auto md:before:translate-x-0 before:h-full before:w-0.5 before:bg-gradient-to-b before:from-transparent before:via-slate-300 before:to-transparent">
+      
+                        <!-- Item #1 -->
+                        <div class="relative flex items-center justify-between md:justify-normal md:odd:flex-row-reverse group is-active">
+                            <!-- Icon -->
+                            <div class="flex items-center justify-center w-10 h-10 rounded-full border border-white bg-slate-300 group-[.is-active]:bg-emerald-500 text-slate-500 group-[.is-active]:text-emerald-50 shadow shrink-0 md:order-1 md:group-odd:-translate-x-1/2 md:group-even:translate-x-1/2">
+                                <svg class="fill-current" xmlns="http://www.w3.org/2000/svg" width="12" height="10">
+                                    <path fill-rule="nonzero" d="M10.422 1.257 4.655 7.025 2.553 4.923A.916.916 0 0 0 1.257 6.22l2.75 2.75a.916.916 0 0 0 1.296 0l6.415-6.416a.916.916 0 0 0-1.296-1.296Z" />
+                                </svg>
+                            </div>
+                            <!-- Card -->
+                            <div class=" w-[calc(100%-4rem)] md:w-[calc(50%-2.5rem)] bg-white p-5 rounded-2xl shadow-xl border border-slate-200 ">
+                                <div class="flex items-center justify-between space-x-2 mb-1">
+                                  <div class=" font-medium text-xl text-slate-900"><i class="fa-solid fa-map-pin pr-2 text-red-500"> </i>Tampere</div>
+                                  <time class=" font-bold text-yellow-500">2019</time>
+                                </div>
+                                <div>
+                                  <img class="rounded-lg" src="Images/Team-2019.jpg" alt="Shoes" />
+                                </div>  
+                            </div>
+                        </div>
+                        
+                        <!-- Item #2 -->
+                        <div class="relative flex items-center justify-between md:justify-normal md:odd:flex-row-reverse group is-active">
+                            <!-- Icon -->
+                            <div class="flex items-center justify-center w-10 h-10 rounded-full border border-white bg-slate-300 group-[.is-active]:bg-emerald-500 text-slate-500 group-[.is-active]:text-emerald-50 shadow shrink-0 md:order-1 md:group-odd:-translate-x-1/2 md:group-even:translate-x-1/2">
+                                <svg class="fill-current" xmlns="http://www.w3.org/2000/svg" width="12" height="10">
+                                    <path fill-rule="nonzero" d="M10.422 1.257 4.655 7.025 2.553 4.923A.916.916 0 0 0 1.257 6.22l2.75 2.75a.916.916 0 0 0 1.296 0l6.415-6.416a.916.916 0 0 0-1.296-1.296Z" />
+                                </svg>
+                            </div>
+                            <!-- Card -->
+                            <div class="w-[calc(100%-4rem)] md:w-[calc(50%-2.5rem)] bg-white p-5 rounded-2xl shadow-xl border border-slate-200 ">
+                              <div class="flex items-center justify-between space-x-2 mb-1">
+                                <div class=" font-medium text-xl text-slate-900"><i class="fa-solid fa-map-pin pr-2 text-red-500"> </i>Tampere</div>
+                                <time class=" font-bold text-yellow-500">2020</time>
+                              </div>
+                              <div>
+                                <img class="rounded-lg" src="Images/Team-2020.jpg" alt="Shoes" />
+                              </div>  
+                          </div>
+                        </div>
+                        
+                        <!-- Item #3 -->
+                        <div class="relative flex items-center justify-between md:justify-normal md:odd:flex-row-reverse group is-active">
+                            <!-- Icon -->
+                            <div class="flex items-center justify-center w-10 h-10 rounded-full border border-white bg-slate-300 group-[.is-active]:bg-emerald-500 text-slate-500 group-[.is-active]:text-emerald-50 shadow shrink-0 md:order-1 md:group-odd:-translate-x-1/2 md:group-even:translate-x-1/2">
+                                <svg class="fill-current" xmlns="http://www.w3.org/2000/svg" width="12" height="10">
+                                    <path fill-rule="nonzero" d="M10.422 1.257 4.655 7.025 2.553 4.923A.916.916 0 0 0 1.257 6.22l2.75 2.75a.916.916 0 0 0 1.296 0l6.415-6.416a.916.916 0 0 0-1.296-1.296Z" />
+                                </svg>
+                            </div>
+                            <!-- Card -->
+                            <div class="w-[calc(100%-4rem)] md:w-[calc(50%-2.5rem)] bg-white p-5 rounded-2xl shadow-xl border border-slate-200 ">
+                              <div class="flex items-center justify-between space-x-2 mb-1">
+                                <div class=" font-medium text-xl text-slate-900"><i class="fa-solid fa-map-pin pr-2 text-red-500"> </i>Tampere</div>
+                                <time class=" font-bold text-yellow-500">2022</time>
+                              </div>
+                              <div>
+                                <img class="rounded-lg" src="Images/Team-2022.jpg" alt="Shoes" />
+                              </div>  
+                          </div>
+                        </div>
+                        
+                        <!-- Item #4 -->
+                        <div class="relative flex items-center justify-between md:justify-normal md:odd:flex-row-reverse group is-active">
+                            <!-- Icon -->
+                            <div class="flex items-center justify-center w-10 h-10 rounded-full border border-white bg-slate-300 group-[.is-active]:bg-emerald-500 text-slate-500 group-[.is-active]:text-emerald-50 shadow shrink-0 md:order-1 md:group-odd:-translate-x-1/2 md:group-even:translate-x-1/2">
+                                <svg class="fill-current" xmlns="http://www.w3.org/2000/svg" width="12" height="10">
+                                    <path fill-rule="nonzero" d="M10.422 1.257 4.655 7.025 2.553 4.923A.916.916 0 0 0 1.257 6.22l2.75 2.75a.916.916 0 0 0 1.296 0l6.415-6.416a.916.916 0 0 0-1.296-1.296Z" />
+                                </svg>
+                            </div>
+                            <!-- Card -->
+                            <div class="w-[calc(100%-4rem)] md:w-[calc(50%-2.5rem)] bg-white p-5 border border-slate-200 rounded-2xl shadow-xl">
+                              <div class="flex  items-center justify-between space-x-2 mb-1">
+                                  <div class=" font-medium text-xl text-slate-900"><i class="fa-solid fa-map-pin pr-2 text-red-500"> </i>Kokkola</div>
+                                  <time class=" font-bold text-yellow-500">2023</time>
+                              </div>
+                              <div>
+                                <img class="rounded-lg" src="Images/banner.jpg" alt="Shoes" />
+                              </div>  
+                          </div>
+                        </div>
+                        
+                        
+                  </div>
+            </div>
+        </div>
+      </div>
+    
+   </div>
+
+
+</div>
+
+<!-- Players -->
+
+
+
+<!-- Page footer -->
+
+
+<!-- Footer -->
+<footer class="mx-auto bg-gray-950 text-white lg:flex  p-20">
+  <div class="text-center lg:text-left">
+      <h1 class=" text-3xl font-extrabold">Get In Touch</h1>
+      <p class="text-slate-500 text-lg mt-5">Ready to elevate your football experience?  Get in touch with us! Whether you have questions, need assistance, or want to explore our programs.</p>
+      <div class="  lg:flex lg:flex-col flex-row my-5">
+          <i class=" fa-solid fa-envelope text-red-600  my-3 "><span class="ml-5 text-slate-500 text-sm ">Domussc@gmail.com</span></i> 
+          <i class="fa-solid fa-phone text-red-600"><span class="ml-5 text-slate-500 text-sm">(+358) 123-321-543</span></i>
+      </div>
+  </div>
+  <div class="lg:flex lg:w-8/12">
+      <div class="flex justify-center ">
+          <div class="mx-5 text-center lg:text-left">
+              <h1 class="font-bold text-xl">Club</h1>
+              <p class="text-slate-500 text-lg mt-1"> About us</p>
+              <p class="text-slate-500 text-lg mt-1" >Leadership</p>
+              <p class="text-slate-500 text-lg mt-1">Careers</p>
+              <p class="text-slate-500 text-lg mt-1">News & Article</p>
+              <p class="text-slate-500 text-lg mt-1">Legal Notice</p>
+          </div>
+          <div class="mx-5 text-center lg:text-left">
+              <h1 class="font-bold text-xl ">Support</h1>
+              <p class="text-slate-500 text-lg mt-1"> Help Center</p>
+              <p class="text-slate-500 text-lg mt-1">FAQ</p>
+              <p class="text-slate-500 text-lg mt-1">Ticket Support</p>
+              <p class="text-slate-500 text-lg mt-1">Contact Us</p>
+          </div>
+          <div class="mx-5 text-center lg:text-left ">
+            <h1 class="font-bold text-xl ">Services</h1>
+            <p class="text-slate-500 text-lg mt-1"> Academy</p>
+            <p class="text-slate-500 text-lg mt-1">Group Lesson</p>
+            <p class="text-slate-500 text-lg mt-1">Private Lesson</p>
+            <p class="text-slate-500 text-lg mt-1">Hockeys for kids</p>
+            <p class="text-slate-500 text-lg mt-1">Hockeys for Adult</p>
+        </div>
+      </div>
+      
+  </div>
+</footer>
+
+
+</body>
+</html>
